@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Env
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+*.log
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
