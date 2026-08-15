@@ -1,29 +1,16 @@
-# Capstone Project
+# React + Vite
 
-A Node.js / TypeScript web application.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## What this is
+Currently, two official plugins are available:
 
-_TODO: one or two sentences on the problem this project solves and who it's for._
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Status
+## React Compiler
 
-🚧 Early scaffolding — project structure and tooling are being set up.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Tech Stack
+## Expanding the ESLint configuration
 
-- Node.js (LTS)
-- TypeScript
-- Git / GitHub for version control
-- Claude Code as AI pair-programming assistant
-
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-## License
-
-See [LICENSE](./LICENSE).
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
